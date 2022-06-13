@@ -1,0 +1,13 @@
+ Run docker login -u marcmaligmat
+
+2. At the password prompt, enter the personal access token.
+
+d5f2e7fa-0f5b-4108-9d1d-4e4e3722b907
+
+
+docker exec -it <mycontainer> bash
+
+docker-compose run --rm app sh -c "django-admin startproject app ."
+
+#fixed i
+docker-compose run --rm app sh -c /py/bin/django-admin.py startproject app ."
